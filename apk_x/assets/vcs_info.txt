@@ -1,0 +1,2 @@
+fix: limit selection toolbar geometry to visible text lines
+dd907b721 (release/v2.9.0)
