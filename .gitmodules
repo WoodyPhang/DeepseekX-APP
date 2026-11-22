@@ -1,0 +1,3 @@
+[submodule "deepseek-api-bridge"]
+	path = deepseek-api-bridge
+	url = https://github.com/WoodyPhang/deepseek-api-bridge.git
