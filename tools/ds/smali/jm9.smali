@@ -1,0 +1,34 @@
+.class public final Ljm9;
+.super Llyb;
+.source "r8-map-id-9e04553801d462f91052d86ee328a0e1114097f7802b2b71474b15907a65961e"
+
+
+# instance fields
+.field public final b:Ljava/util/LinkedHashMap;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Llyb;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Ljm9;->b:Ljava/util/LinkedHashMap;
+
+    .line 10
+    .line 11
+    return-void
+.end method

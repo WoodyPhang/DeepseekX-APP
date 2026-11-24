@@ -1,0 +1,38 @@
+.class public final Luza;
+.super Lgza;
+.source "r8-map-id-9e04553801d462f91052d86ee328a0e1114097f7802b2b71474b15907a65961e"
+
+
+# static fields
+.field public static final b:Luza;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    .line 1
+    new-instance v0, Luza;
+
+    .line 2
+    .line 3
+    new-instance v1, Ljava/lang/Object;
+
+    .line 4
+    .line 5
+    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    .line 7
+    .line 8
+    invoke-direct {v0, v1}, Lgza;-><init>(Ljava/lang/Object;)V
+
+    .line 9
+    .line 10
+    .line 11
+    sput-object v0, Luza;->b:Luza;
+
+    .line 12
+    .line 13
+    return-void
+.end method

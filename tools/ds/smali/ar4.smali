@@ -1,0 +1,25 @@
+.class public final Lar4;
+.super Ljava/lang/Exception;
+.source "r8-map-id-9e04553801d462f91052d86ee328a0e1114097f7802b2b71474b15907a65961e"
+
+
+# instance fields
+.field public final a:I
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Exception;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput p1, p0, Lar4;->a:I
+
+    .line 5
+    .line 6
+    return-void
+.end method

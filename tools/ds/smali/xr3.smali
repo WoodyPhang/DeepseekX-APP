@@ -1,0 +1,57 @@
+.class public final Lxr3;
+.super Lwo;
+.source "r8-map-id-9e04553801d462f91052d86ee328a0e1114097f7802b2b71474b15907a65961e"
+
+
+# static fields
+.field public static final a:Lxr3;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lxr3;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lxr3;->a:Lxr3;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final c0()Z
+    .locals 0
+
+    .line 1
+    const/4 p0, 0x1
+
+    .line 2
+    return p0
+.end method
+
+.method public final g0(Lj8c;I)V
+    .locals 0
+
+    .line 1
+    const/16 p0, 0x20
+
+    .line 2
+    .line 3
+    invoke-virtual {p1, p0}, Lj8c;->I(C)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
